@@ -1,0 +1,47 @@
+/*Main element styling*/
+main{
+    width: 800px;
+    margin: 0 auto;
+}
+
+/*Profile image styling*/
+main img{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/*Aside section styling*/
+aside{
+    width: 250px;
+    margin: 20px auto;
+    border: 1px solid #d4a373;
+    padding: 15px;
+    background-color: #fefae0;
+    color: #283618;
+    border-radius: 8px;
+}
+
+/*Aside image styling*/
+aside img{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/*Paragraph styling*/
+p{
+    padding: 0;
+    line-height: 1.5;
+}
+
+/*Footer styling*/
+footer{
+    margin-top: 30px;
+    border-top: 1px solid #d4a373;
+    text-align: center;
+    padding: 10px 0;
+    color: #283618;
+}
