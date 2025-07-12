@@ -1,3 +1,29 @@
+/*Navigation styles*/
+nav{
+    background-color: #283618;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a{
+    color: #fefae0;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/*Heading styles*/
+h1{
+    color: #283618;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Helvetica', sans-serif;
+}
+
 /*Main element styling*/
 main{
     width: 800px;
