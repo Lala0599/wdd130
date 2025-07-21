@@ -17,15 +17,17 @@
 
 body{
     font-family: var(--text-font);
-    color: #283618;
+    color: var(--primary-color);
     line-height: 1.6;
     background-color: rgba(254, 250, 224, 0.7);
 }
 
 /*layout*/
 header, main, footer{
-    width: 840px;
+    max-width: 840px;
+    width: 100%;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 /*header styles*/
@@ -36,6 +38,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
 header img{
     width: 100px;
     height: auto;
@@ -87,10 +90,7 @@ nav a{
 }
 
 .hero article img{
-    float: right;
     width: 125px;
-    margin-left: 15px;
-    margin-bottom: 10px;
     border: 2px solid var(--primary-color);
     border-radius: 4px;
 }
@@ -101,7 +101,7 @@ section {
     padding: 20px;
     background-color: rgba(163, 177, 138, 0.6);
     border-radius: 8px;
-    color: #283618;
+    color: var(--primary-color);
 }
 
 h1, h2 {
@@ -111,6 +111,17 @@ h1, h2 {
 }
 
 /*gallery section*/
+.gallery{
+    text-align: center;
+}
+
+.image-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+}
+
 section img {
     width: 150px;
     height: auto;
